@@ -70,7 +70,15 @@ function App() {
       <div className="page">
         <header>
           <h1>Peliculas </h1>
-          <form onSubmit={handleSubmit}>
+          <form
+            onSubmit={handleSubmit}
+            style={{
+              display: "flex",
+              gap: "1rem",
+              marginBottom: "2rem",
+              justifyContent: "center",
+            }}
+          >
             <input
               name="query"
               value={search}

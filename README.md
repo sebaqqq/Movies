@@ -18,4 +18,3 @@ Primera Iteración:
 - Evitar que se haga la misma búsqueda dos veces seguidas
 - Haz que la búsqueda se haga automáticamente al escribir
 - Evita que se haga la búsqueda continuamente al escribir (debounce)
-# Movies
